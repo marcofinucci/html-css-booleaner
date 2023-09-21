@@ -140,7 +140,7 @@ table tbody tr:nth-child(odd) {
 /* Site footer*/
 
 #site-footer {
-    margin-top: 40px;
+    margin: 40px 0;
     padding: 0 8px;
 }
 

@@ -1,6 +1,7 @@
 /* Generic */
 
 :root {
+    --container-width: 900px;
     --font-small: 12px;
     --font-default: 17px;
     --font-medium: 24px;
@@ -81,7 +82,7 @@ table tbody tr:nth-child(odd) {
 
 .header-container {
     margin: 0 auto;
-    max-width: 1000px;
+    max-width: var(--container-width);
 }
 
 /* Site Main */
@@ -89,7 +90,7 @@ table tbody tr:nth-child(odd) {
 #site-main {
     padding: 0 8px;
     margin: 24px auto 0 auto;
-    max-width: 1000px;
+    max-width: var(--container-width);
 }
 
 /* Site Main - Post title */
@@ -146,8 +147,13 @@ table tbody tr:nth-child(odd) {
 /* Site footer*/
 
 #site-footer {
-    margin-top: 40px;
+    margin: 40px 0;
     padding: 0 8px;
+}
+
+.footer-container {
+    margin: 0 auto;
+    max-width: var(--container-width);
 }
 
 /* Site footer - Other post */
